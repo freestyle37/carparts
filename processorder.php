@@ -9,7 +9,16 @@
     <h1>Автозапчасти от Вовки</h1>
     <h2>Результаты заказа</h2>
     <?php
-      echo '<p>Заказ обработан. '.date('H:i, jS F Y').'</p>';
+      //echo '<p>Заказ обработан. '.date('H:i, jS F Y').'</p>';
+      //echo '<pre>';
+      //var_dump($_REQUEST);
+      //echo '</pre>';
+      $per = 'hd';
+      echo <<<theEnd
+        Sintaksis heredoc podderjivaet
+        interpolyatsiyu
+        $per
+      theEnd;
     ?>
   </body>
 </html>
