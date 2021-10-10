@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+.my-table {
+  border: none;
+}
+.my-table tr {
+  background: #cccccc;
+}
+.my-table tr td {
+  width: 150px;
+  text-align: center;
+}
